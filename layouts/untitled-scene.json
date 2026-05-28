@@ -75,34 +75,6 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 100,
-          "CurrentHealth": 0,
-          "MaxHealth": 100,
-          "DamageCooldown": 0,
-          "AllowOverHealing": false,
-          "IsHealthJustDamaged": false,
-          "DamageToBeApplied": 0,
-          "HitAtLeastOnce": false,
-          "ChanceToDodge": 0,
-          "IsJustDodged": false,
-          "HealToBeApplied": 0,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
-          "IsJustHealed": false,
-          "CurrentShieldPoints": 2.0247e-320,
-          "MaxShieldPoints": 0,
-          "ShieldDuration": 5,
-          "ShieldRegenRate": 0,
-          "BlockExcessDamage": false,
-          "ShieldRegenDelay": 0,
-          "IsShieldJustDamaged": false,
-          "ShieldDamageTaken": 2.0247e-320,
-          "FlatDamageReduction": 0,
-          "PercentDamageReduction": 0
-        },
-        {
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -259,7 +231,13 @@
             "",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
         {
           "type": {
             "value": "SetCameraCenterY"
@@ -271,13 +249,7 @@
             "",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "SetCameraCenterX"
@@ -291,6 +263,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -372,10 +349,6 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "Health",
-      "type": "Health::Health"
     },
     {
       "name": "Opacity",
