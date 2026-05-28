@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1638682658311879,
+    "zoomFactor": 1.3737860901796872,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -38,7 +38,7 @@
       "name": "Player",
       "persistentUuid": "8840ad07-5950-4480-9b71-d3c2cd525740",
       "width": 48,
-      "x": 656,
+      "x": 672,
       "y": 656,
       "zOrder": 1,
       "numberProperties": [],
@@ -52,7 +52,7 @@
       "height": 32,
       "keepRatio": true,
       "layer": "",
-      "name": "NewTiledSprite",
+      "name": "Floor",
       "persistentUuid": "cb7d6653-fe89-4091-aff1-85239a554efa",
       "width": 896,
       "x": 512,
@@ -74,6 +74,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
         {
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
@@ -151,7 +179,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
+      "name": "Floor",
       "persistentUuid": "9fe9ab7d-6545-4474-9eb4-fb8bebf31c61",
       "texture": "NewTiledSprite",
       "type": "TiledSpriteObject::TiledSprite",
@@ -167,6 +195,18 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "8de86da4-5905-4845-974f-1f5a127117f5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -176,15 +216,81 @@
         "objectName": "Player"
       },
       {
-        "objectName": "NewTiledSprite"
+        "objectName": "Floor"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CenterCameraOnObject"
+          },
+          "parameters": [
+            "Player",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "3",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Y() - 50",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.X() + 50",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -266,6 +372,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
