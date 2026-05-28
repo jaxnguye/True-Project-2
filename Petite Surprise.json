@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "Petite Surprise",
+    "name": "Project 2",
     "description": "",
     "author": "",
     "windowWidth": 1920,
@@ -49,7 +49,9 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "lpk4xr6RLLNNWeUxvnj3LIIT2RG2"
+    ],
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
