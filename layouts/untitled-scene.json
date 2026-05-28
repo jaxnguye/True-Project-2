@@ -11,8 +11,8 @@
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
+    "gridWidth": 16,
+    "gridHeight": 16,
     "gridDepth": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.580015523990486,
+    "zoomFactor": 1.1638682658311879,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,15 +30,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
+      "name": "Player",
       "persistentUuid": "8840ad07-5950-4480-9b71-d3c2cd525740",
-      "width": 0,
-      "x": 608,
-      "y": 608,
+      "width": 48,
+      "x": 656,
+      "y": 656,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,7 +67,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Player",
       "persistentUuid": "a2bafede-f52f-496f-a900-0acce5051d9f",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -81,11 +82,11 @@
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
+          "jumpSpeed": 300,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
+          "maxSpeed": 150,
           "name": "PlatformerObject",
           "slopeMaxAngle": 60,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -127,16 +128,16 @@
                         "y": 25
                       },
                       {
-                        "x": 47,
+                        "x": 40,
                         "y": 25
                       },
                       {
-                        "x": 47,
-                        "y": 63
+                        "x": 40,
+                        "y": 64
                       },
                       {
                         "x": 26,
-                        "y": 63
+                        "y": 64
                       }
                     ]
                   ]
@@ -172,14 +173,20 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "Player"
       },
       {
         "objectName": "NewTiledSprite"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
