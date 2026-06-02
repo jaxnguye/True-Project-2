@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7077142870146687,
+    "zoomFactor": 0.5250860067782533,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -61,6 +61,102 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Health",
+      "persistentUuid": "76c44923-d364-4afd-a740-f25ed2e7560c",
+      "width": 0,
+      "x": 16,
+      "y": 32,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Score",
+      "persistentUuid": "703bc278-e3f0-46f4-87b1-0222320a9c12",
+      "width": 0,
+      "x": 16,
+      "y": 128,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Water",
+      "persistentUuid": "159646a4-f22e-41f3-a299-718e1411c219",
+      "width": 0,
+      "x": 240,
+      "y": 240,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ammo",
+      "persistentUuid": "7cf89676-4f53-4c13-b509-a4a9a39e78e7",
+      "width": 0,
+      "x": 16,
+      "y": 224,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Health_counter",
+      "persistentUuid": "013f9de8-9b67-435f-903a-72c7aa4bb8d1",
+      "width": 0,
+      "x": 352,
+      "y": 48,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Score_counter",
+      "persistentUuid": "1ef13d59-ef12-4160-a343-0cbdd3355094",
+      "width": 0,
+      "x": 288,
+      "y": 128,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -75,6 +171,9 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -82,15 +181,12 @@
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
-          "isFolded": true,
           "jumpSpeed": 300,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 150,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -171,10 +267,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -190,6 +286,107 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "assetStoreId": "250ca0e7042fbd452ea5b7761cdf6b21c5f39566aa463c06a4d9ab8495aaaac0",
+      "name": "Health",
+      "persistentUuid": "7da8b472-cb1f-452c-a225-326071ea8326",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Health",
+        "opacity": 255,
+        "scale": 5,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "assets/NotJamThirdDimension15.fnt",
+        "textureAtlasResourceName": "assets/NotJamThirdDimension15.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "250ca0e7042fbd452ea5b7761cdf6b21c5f39566aa463c06a4d9ab8495aaaac0",
+      "name": "Score",
+      "persistentUuid": "4591cf8d-bee9-42ca-97f7-2f85c7fd7a71",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Score",
+        "opacity": 255,
+        "scale": 5,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "assets/NotJamThirdDimension15.fnt",
+        "textureAtlasResourceName": "assets/NotJamThirdDimension15.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "39464b6369e8cb648fdea6b52f74f77a27cd14adc6cc9630e20b835f3724b069",
+      "name": "Health_counter",
+      "persistentUuid": "571da393-dbb2-405f-9a77-f7b37951b377",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variant": "LowPoly 3D Heart",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 68,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "InitialValue": 3,
+        "MaxValue": 3
+      }
+    },
+    {
+      "assetStoreId": "a8cab5b124e8686e1c79f022430935a247f8b67a0f9b872148798a8ee4187f55",
+      "name": "Ammo",
+      "persistentUuid": "fda46d5e-4685-487d-84ce-a8a558fd0d5b",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variant": "Brass 3D Bullet Ammo",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 32,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "InitialValue": 6,
+        "MaxValue": 6
+      }
+    },
+    {
+      "assetStoreId": "1fc3d9adc4f2c19c57229fb65f067937273e0528a5fd7d4af8dd8fd62c52cb92",
+      "name": "Water",
+      "persistentUuid": "ccefbafd-bfce-4c7b-b14b-4c447ef76a1f",
+      "type": "ScoreCounter::ScoreCounter",
+      "variant": "Diamond Blue",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "Score": 0,
+        "IncreasingScoreSound": ""
+      }
+    },
+    {
+      "assetStoreId": "b5336f5c3a0fbcb05648ad369e96c029fdde1c4bc6aeb2a8ea492a403d74eced",
+      "name": "Score_counter",
+      "persistentUuid": "5cb6ed71-da03-4c2b-875b-2bd2e1c3c27c",
+      "type": "ScoreCounter::ScoreCounter",
+      "variant": "Star Outlined Large",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "Score": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -203,6 +400,24 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Health"
+      },
+      {
+        "objectName": "Score"
+      },
+      {
+        "objectName": "Score_counter"
+      },
+      {
+        "objectName": "Health_counter"
+      },
+      {
+        "objectName": "Ammo"
+      },
+      {
+        "objectName": "Water"
       }
     ]
   },
@@ -238,7 +453,7 @@
           },
           "parameters": [
             "",
-            "3",
+            "1",
             "",
             ""
           ]
@@ -346,6 +561,60 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -384,6 +653,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

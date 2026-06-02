@@ -124,6 +124,132 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NotJamThirdDimension15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NotJamThirdDimension15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/cedb59e36cd1c89a7a434384decaad8f2d9e0d5ca343c8c908994b4f3c4972f9_NotJamThirdDimension15.png",
+          "name": "NotJamThirdDimension15.png"
+        }
+      },
+      {
+        "file": "assets/NotJamThirdDimension15.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets/NotJamThirdDimension15.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/5390794bade6e52a53b8900628e93ab048109cd98502910fb3afa42bdf2a70cd_NotJamThirdDimension15.fnt",
+          "name": "NotJamThirdDimension15.fnt"
+        }
+      },
+      {
+        "file": "assets/LowPoly 3D Heart Resource Bar Separated Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LowPoly 3D Heart Resource Bar Separated Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/7728a19eed956ec227b47311c438f9a8df47398e12b902e78fa74ac2b89baf6c_LowPoly 3D Heart Resource Bar Separated Empty.png",
+          "name": "LowPoly 3D Heart Resource Bar Separated Empty.png"
+        }
+      },
+      {
+        "file": "assets/LowPoly 3D Heart Resource Bar Separated Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LowPoly 3D Heart Resource Bar Separated Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4ac29b012011e0e9bbba5a06a9c534ebfb784fe7ac887d3535206ac4cfd81c0a_LowPoly 3D Heart Resource Bar Separated Filled.png",
+          "name": "LowPoly 3D Heart Resource Bar Separated Filled.png"
+        }
+      },
+      {
+        "file": "assets/Brass 3D Ammo Resource Bar Separated Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Brass 3D Ammo Resource Bar Separated Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c80fc949a985e41295a32a27c5a38ddc864cf05eb9c4639028b175c59ad469ec_Brass 3D Ammo Resource Bar Separated Empty.png",
+          "name": "Brass 3D Ammo Resource Bar Separated Empty.png"
+        }
+      },
+      {
+        "file": "assets/Brass 3D Ammo Resource Bar Separated Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Brass 3D Ammo Resource Bar Separated Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/8eb7c16d1ccc40346a91d9af8ea4462827ce582197e2d81241ca61da9f9310f6_Brass 3D Ammo Resource Bar Separated Filled.png",
+          "name": "Brass 3D Ammo Resource Bar Separated Filled.png"
+        }
+      },
+      {
+        "file": "assets/Diamond Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Diamond Blue.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/954410874b25563daf5e653a6aa5bc541b1644c8c5cb630236c850e8f0ba5522_Diamond Blue.png",
+          "name": "Diamond Blue.png"
+        }
+      },
+      {
+        "file": "assets/NotoSansArabicUI-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+          "name": "NotoSansArabicUI-Black.ttf"
+        }
+      },
+      {
+        "file": "assets/Star Yellow Outlined.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Star Yellow Outlined.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/4d06235f9e1b341aa796526dc88118f84eeddf998b0882371386b4c3ab07a22b_Star Yellow Outlined.png",
+          "name": "Star Yellow Outlined.png"
+        }
+      },
+      {
+        "file": "assets/Star Yellow Large Outlined.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Star Yellow Large Outlined.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/4604f6c048d067436a590adad32c4aa4eb6345de4a6092a9f5dfd8c298fdaee7_Star Yellow Large Outlined.png",
+          "name": "Star Yellow Large Outlined.png"
+        }
+      },
+      {
+        "file": "zombie characters.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie characters.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -148,6 +274,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/scorecounter"
     }
   ],
   "externalLayouts": []
