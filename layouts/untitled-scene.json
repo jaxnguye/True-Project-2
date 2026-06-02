@@ -20,7 +20,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+<<<<<<< Updated upstream
     "zoomFactor": 0.5250860067782533,
+=======
+    "zoomFactor": 0.4303403802207673,
+>>>>>>> Stashed changes
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -67,6 +71,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
+<<<<<<< Updated upstream
       "layer": "UI",
       "name": "Health",
       "persistentUuid": "76c44923-d364-4afd-a740-f25ed2e7560c",
@@ -105,6 +110,14 @@
       "width": 0,
       "x": 240,
       "y": 240,
+=======
+      "layer": "",
+      "name": "Health",
+      "persistentUuid": "a84c5b92-d0a0-45e5-b320-43aa0febac12",
+      "width": 0,
+      "x": 24,
+      "y": 32,
+>>>>>>> Stashed changes
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -115,12 +128,21 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
+<<<<<<< Updated upstream
       "layer": "UI",
       "name": "Ammo",
       "persistentUuid": "7cf89676-4f53-4c13-b509-a4a9a39e78e7",
       "width": 0,
       "x": 16,
       "y": 224,
+=======
+      "layer": "",
+      "name": "NotJamThirdDimension15",
+      "persistentUuid": "f90e9a26-1a0b-4065-b2f3-775f83bc8ead",
+      "width": 0,
+      "x": 23,
+      "y": 96,
+>>>>>>> Stashed changes
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,12 +153,21 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
+<<<<<<< Updated upstream
       "layer": "UI",
       "name": "Health_counter",
       "persistentUuid": "013f9de8-9b67-435f-903a-72c7aa4bb8d1",
       "width": 0,
       "x": 352,
       "y": 48,
+=======
+      "layer": "",
+      "name": "Water",
+      "persistentUuid": "8391bf3b-2c5e-4d58-a7b1-5da50778671b",
+      "width": 0,
+      "x": 16,
+      "y": 158,
+>>>>>>> Stashed changes
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,16 +178,60 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
+<<<<<<< Updated upstream
       "layer": "UI",
       "name": "Score_counter",
       "persistentUuid": "1ef13d59-ef12-4160-a343-0cbdd3355094",
       "width": 0,
       "x": 288,
       "y": 128,
+=======
+      "layer": "",
+      "name": "Health3",
+      "persistentUuid": "1a1d630a-d113-4e5c-b7de-ed3bc05ce7a3",
+      "width": 0,
+      "x": 240,
+      "y": 21,
+>>>>>>> Stashed changes
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Score",
+      "persistentUuid": "977530dc-aae0-4e02-9e4b-96a556e1b533",
+      "width": 0,
+      "x": 224,
+      "y": 80,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Brass3DAmmo",
+      "persistentUuid": "5264552c-4f61-4a1a-aec3-fb0a3e584fbf",
+      "width": 0,
+      "x": 16,
+      "y": 256,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+>>>>>>> Stashed changes
     }
   ],
   "objects": [
@@ -171,7 +246,10 @@
       "effects": [],
       "behaviors": [
         {
+<<<<<<< Updated upstream
           "isFolded": true,
+=======
+>>>>>>> Stashed changes
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -276,6 +354,7 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
@@ -291,6 +370,11 @@
       "assetStoreId": "250ca0e7042fbd452ea5b7761cdf6b21c5f39566aa463c06a4d9ab8495aaaac0",
       "name": "Health",
       "persistentUuid": "7da8b472-cb1f-452c-a225-326071ea8326",
+=======
+      "assetStoreId": "250ca0e7042fbd452ea5b7761cdf6b21c5f39566aa463c06a4d9ab8495aaaac0",
+      "name": "Health",
+      "persistentUuid": "fc60f2d5-dd5e-43b1-b980-7698bd98b339",
+>>>>>>> Stashed changes
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
@@ -298,7 +382,11 @@
       "content": {
         "text": "Health",
         "opacity": 255,
+<<<<<<< Updated upstream
         "scale": 5,
+=======
+        "scale": 3,
+>>>>>>> Stashed changes
         "fontSize": 20,
         "tint": "0;0;0",
         "bitmapFontResourceName": "assets/NotJamThirdDimension15.fnt",
@@ -309,18 +397,31 @@
     },
     {
       "assetStoreId": "250ca0e7042fbd452ea5b7761cdf6b21c5f39566aa463c06a4d9ab8495aaaac0",
+<<<<<<< Updated upstream
       "name": "Score",
       "persistentUuid": "4591cf8d-bee9-42ca-97f7-2f85c7fd7a71",
+=======
+      "name": "NotJamThirdDimension15",
+      "persistentUuid": "9538222f-4ac2-469b-9c02-810c20a8086a",
+>>>>>>> Stashed changes
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
+<<<<<<< Updated upstream
         "text": "Score",
         "opacity": 255,
         "scale": 5,
         "fontSize": 20,
         "tint": "0;0;0",
+=======
+        "text": "Score\n",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "3;0;0",
+>>>>>>> Stashed changes
         "bitmapFontResourceName": "assets/NotJamThirdDimension15.fnt",
         "textureAtlasResourceName": "assets/NotJamThirdDimension15.png",
         "align": "left",
@@ -328,9 +429,29 @@
       }
     },
     {
+<<<<<<< Updated upstream
       "assetStoreId": "39464b6369e8cb648fdea6b52f74f77a27cd14adc6cc9630e20b835f3724b069",
       "name": "Health_counter",
       "persistentUuid": "571da393-dbb2-405f-9a77-f7b37951b377",
+=======
+      "assetStoreId": "1fc3d9adc4f2c19c57229fb65f067937273e0528a5fd7d4af8dd8fd62c52cb92",
+      "name": "Water",
+      "persistentUuid": "6cc51c55-ce02-42b7-851c-1e9d8ad567bb",
+      "type": "ScoreCounter::ScoreCounter",
+      "variant": "Diamond Blue",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "Score": 0,
+        "IncreasingScoreSound": ""
+      }
+    },
+    {
+      "assetStoreId": "39464b6369e8cb648fdea6b52f74f77a27cd14adc6cc9630e20b835f3724b069",
+      "name": "Health3",
+      "persistentUuid": "1337e32b-31b1-4716-be85-3e9e7e15aa15",
+>>>>>>> Stashed changes
       "type": "TiledUnitsBar::TiledUnitsBar",
       "variant": "LowPoly 3D Heart",
       "variables": [],
@@ -345,9 +466,28 @@
       }
     },
     {
+<<<<<<< Updated upstream
       "assetStoreId": "a8cab5b124e8686e1c79f022430935a247f8b67a0f9b872148798a8ee4187f55",
       "name": "Ammo",
       "persistentUuid": "fda46d5e-4685-487d-84ce-a8a558fd0d5b",
+=======
+      "assetStoreId": "b5336f5c3a0fbcb05648ad369e96c029fdde1c4bc6aeb2a8ea492a403d74eced",
+      "name": "Score",
+      "persistentUuid": "6fefa3e6-8ec9-443b-a684-f9ede47f4e50",
+      "type": "ScoreCounter::ScoreCounter",
+      "variant": "Star Outlined Large",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "Score": 0
+      }
+    },
+    {
+      "assetStoreId": "a8cab5b124e8686e1c79f022430935a247f8b67a0f9b872148798a8ee4187f55",
+      "name": "Brass3DAmmo",
+      "persistentUuid": "0201475c-8ee4-4f9b-9f73-f8fab6ebf35d",
+>>>>>>> Stashed changes
       "type": "TiledUnitsBar::TiledUnitsBar",
       "variant": "Brass 3D Bullet Ammo",
       "variables": [],
@@ -360,6 +500,7 @@
         "InitialValue": 6,
         "MaxValue": 6
       }
+<<<<<<< Updated upstream
     },
     {
       "assetStoreId": "1fc3d9adc4f2c19c57229fb65f067937273e0528a5fd7d4af8dd8fd62c52cb92",
@@ -387,6 +528,8 @@
       "content": {
         "Score": 0
       }
+=======
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -396,15 +539,20 @@
         "objectName": "Player"
       },
       {
+<<<<<<< Updated upstream
         "objectName": "Floor"
       },
       {
         "objectName": "NewSprite"
+=======
+        "objectName": "NewTiledSprite"
+>>>>>>> Stashed changes
       },
       {
         "objectName": "Health"
       },
       {
+<<<<<<< Updated upstream
         "objectName": "Score"
       },
       {
@@ -418,6 +566,21 @@
       },
       {
         "objectName": "Water"
+=======
+        "objectName": "NotJamThirdDimension15"
+      },
+      {
+        "objectName": "Water"
+      },
+      {
+        "objectName": "Health3"
+      },
+      {
+        "objectName": "Score"
+      },
+      {
+        "objectName": "Brass3DAmmo"
+>>>>>>> Stashed changes
       }
     ]
   },

@@ -110,6 +110,7 @@
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -124,6 +125,29 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": false
+=======
+        "file": "assets/NotJamBlkltr13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NotJamBlkltr13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/fd35b97b93f74dcbed450829cfdb8f4a30c8fd0dc8126d93ab0d2cd7dfdf9dc9_NotJamBlkltr13.png",
+          "name": "NotJamBlkltr13.png"
+        }
+      },
+      {
+        "file": "assets/NotJamBlkltr13.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets/NotJamBlkltr13.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/e512bdcfb61f86fb9fe61c95c4a8bca0f084a3c903f02f1f3c2035026dc343ae_NotJamBlkltr13.fnt",
+          "name": "NotJamBlkltr13.fnt"
+        }
+>>>>>>> Stashed changes
       },
       {
         "file": "assets/NotJamThirdDimension15.png",
@@ -149,6 +173,32 @@
         }
       },
       {
+<<<<<<< Updated upstream
+=======
+        "file": "assets/Diamond Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Diamond Blue.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/954410874b25563daf5e653a6aa5bc541b1644c8c5cb630236c850e8f0ba5522_Diamond Blue.png",
+          "name": "Diamond Blue.png"
+        }
+      },
+      {
+        "file": "assets/NotoSansArabicUI-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+          "name": "NotoSansArabicUI-Black.ttf"
+        }
+      },
+      {
+>>>>>>> Stashed changes
         "file": "assets/LowPoly 3D Heart Resource Bar Separated Empty.png",
         "kind": "image",
         "metadata": "",
@@ -173,6 +223,56 @@
         }
       },
       {
+<<<<<<< Updated upstream
+=======
+        "file": "assets/8BitOperatorPlus8Regular.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/Pixel art/5ae0a579dbe67c533d19b92f1c1c84cec739b7c22a689823c9e1ba19ee883c36_8BitOperatorPlus8Regular.png",
+          "name": "8BitOperatorPlus8Regular.png"
+        }
+      },
+      {
+        "file": "assets/Coin 1Bit Pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Coin 1Bit Pixel.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/Pixel art/7d5b5064878be9701f8b7b94b491815e295be16771ac9088b8146b48582ca48c_Coin 1Bit Pixel.png",
+          "name": "Coin 1Bit Pixel.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/Pixel art/8826f8477c073a233f09326bd5bb208fdd51415e6bfdc3fe8c4b75ab5635521e_8BitOperatorPlus8Regular.fnt",
+          "name": "8BitOperatorPlus8Regular.fnt"
+        }
+      },
+      {
+        "file": "assets/Star Yellow Large Outlined.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Star Yellow Large Outlined.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/4604f6c048d067436a590adad32c4aa4eb6345de4a6092a9f5dfd8c298fdaee7_Star Yellow Large Outlined.png",
+          "name": "Star Yellow Large Outlined.png"
+        }
+      },
+      {
+>>>>>>> Stashed changes
         "file": "assets/Brass 3D Ammo Resource Bar Separated Empty.png",
         "kind": "image",
         "metadata": "",
@@ -195,6 +295,7 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/8eb7c16d1ccc40346a91d9af8ea4462827ce582197e2d81241ca61da9f9310f6_Brass 3D Ammo Resource Bar Separated Filled.png",
           "name": "Brass 3D Ammo Resource Bar Separated Filled.png"
         }
+<<<<<<< Updated upstream
       },
       {
         "file": "assets/Diamond Blue.png",
@@ -250,6 +351,8 @@
         "name": "zombie characters.png",
         "smoothed": true,
         "userAdded": false
+=======
+>>>>>>> Stashed changes
       }
     ]
   },
@@ -262,6 +365,10 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
     }
   ],
@@ -269,19 +376,26 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+<<<<<<< Updated upstream
       "referenceTo": "/eventsFunctionsExtensions/health"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+=======
+      "referenceTo": "/eventsFunctionsExtensions/scorecounter"
+>>>>>>> Stashed changes
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+<<<<<<< Updated upstream
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/scorecounter"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "externalLayouts": []

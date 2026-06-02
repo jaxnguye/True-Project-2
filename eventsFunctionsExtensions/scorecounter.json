@@ -3981,6 +3981,7 @@
           }
         },
         {
+<<<<<<< Updated upstream
           "areaMaxX": 78,
           "areaMaxY": 52,
           "areaMaxZ": 2,
@@ -3990,12 +3991,27 @@
           "assetStoreAssetId": "ba1cafd1baa9fbae56ae6e9f6e7399d1473164d56ca202365184a92a8e7428bc",
           "assetStoreOriginalName": "Star Outlined",
           "name": "Star Outlined",
+=======
+          "areaMaxX": 17,
+          "areaMaxY": 10,
+          "areaMaxZ": 1,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreAssetId": "4b66856bd15abf75e08f719848d18fe5c3af98fd478c13839136e4cf0311ff0e",
+          "assetStoreOriginalName": "Coin 1Bit Pixel",
+          "name": "Coin 1Bit Pixel",
+>>>>>>> Stashed changes
           "objects": [
             {
               "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
               "name": "Icon",
+<<<<<<< Updated upstream
               "persistentUuid": "a3ed8574-2531-4406-be92-2520ebdd22f5",
+=======
+              "persistentUuid": "d8ad4fb7-6455-420b-8f47-867a2139aef7",
+>>>>>>> Stashed changes
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -4030,12 +4046,21 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": true,
+<<<<<<< Updated upstream
                           "image": "assets\\Star Yellow Outlined.png",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
                             "x": 21,
                             "y": 20
+=======
+                          "image": "assets\\Coin 1Bit Pixel.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 5,
+                            "y": 5
+>>>>>>> Stashed changes
                           },
                           "centerPoint": {
                             "automatic": true,
@@ -4056,7 +4081,11 @@
               "bold": true,
               "italic": true,
               "name": "Counter",
+<<<<<<< Updated upstream
               "persistentUuid": "54ea8937-b8c5-46a0-a808-3172e7eaa151",
+=======
+              "persistentUuid": "f91cf1ee-f44e-4d63-ab29-66d4ad116c48",
+>>>>>>> Stashed changes
               "smoothed": true,
               "type": "TextObject::Text",
               "underlined": false,
@@ -4094,6 +4123,7 @@
                 }
               ],
               "string": "0",
+<<<<<<< Updated upstream
               "font": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
               "textAlignment": "left",
               "characterSize": 22,
@@ -4101,14 +4131,28 @@
                 "b": 45,
                 "g": 186,
                 "r": 250
+=======
+              "font": "",
+              "textAlignment": "left",
+              "characterSize": 36,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+>>>>>>> Stashed changes
               },
               "content": {
                 "bold": true,
                 "isOutlineEnabled": true,
                 "isShadowEnabled": false,
                 "italic": true,
+<<<<<<< Updated upstream
                 "outlineColor": "53;53;65",
                 "outlineThickness": 7,
+=======
+                "outlineColor": "255;255;255",
+                "outlineThickness": 10,
+>>>>>>> Stashed changes
                 "shadowAngle": 90,
                 "shadowBlurRadius": 2,
                 "shadowColor": "0;0;0",
@@ -4117,12 +4161,21 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "0",
+<<<<<<< Updated upstream
                 "font": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
                 "textAlignment": "left",
                 "verticalTextAlignment": "center",
                 "characterSize": 22,
                 "lineHeight": 0,
                 "color": "250;186;45"
+=======
+                "font": "",
+                "textAlignment": "left",
+                "verticalTextAlignment": "center",
+                "characterSize": 36,
+                "lineHeight": 0,
+                "color": "0;0;0"
+>>>>>>> Stashed changes
               }
             },
             {
@@ -4155,7 +4208,10 @@
             {
               "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
               "name": "BitmapCounter",
+<<<<<<< Updated upstream
               "persistentUuid": "8301018f-8010-4045-b928-fabdc841df00",
+=======
+>>>>>>> Stashed changes
               "type": "BitmapText::BitmapTextObject",
               "variables": [],
               "effects": [],
@@ -4174,7 +4230,11 @@
                   "name": "RollingCounter",
                   "type": "ScoreCounter::RollingCounter",
                   "Text": "Text",
+<<<<<<< Updated upstream
                   "Prefix": "Score: ",
+=======
+                  "Prefix": "",
+>>>>>>> Stashed changes
                   "Suffix": "",
                   "Duration": 1,
                   "Increment": 1,
@@ -4186,17 +4246,30 @@
                   "name": "ShakeObject_PositionAngleScale",
                   "type": "ScoreCounter::ShakeObject_PositionAngleScale",
                   "Scale": "Scale",
+<<<<<<< Updated upstream
                   "Property": 7.02010802359022e-306
                 }
               ],
               "content": {
                 "text": "Text",
+=======
+                  "Property": 7.081819056384756e-306
+                }
+              ],
+              "content": {
+                "text": "0",
+>>>>>>> Stashed changes
                 "opacity": 255,
                 "scale": 1,
                 "fontSize": 20,
                 "tint": "255;255;255",
+<<<<<<< Updated upstream
                 "bitmapFontResourceName": "",
                 "textureAtlasResourceName": "",
+=======
+                "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular.fnt",
+                "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular.png",
+>>>>>>> Stashed changes
                 "align": "left",
                 "verticalTextAlignment": "top"
               }
@@ -4265,6 +4338,7 @@
           ],
           "instances": [
             {
+<<<<<<< Updated upstream
               "angle": -7,
               "customSize": true,
               "depth": 2,
@@ -4281,6 +4355,8 @@
               "initialVariables": []
             },
             {
+=======
+>>>>>>> Stashed changes
               "angle": 0,
               "customSize": false,
               "height": 53,
@@ -4289,8 +4365,13 @@
               "name": "Icon",
               "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
               "width": 53,
+<<<<<<< Updated upstream
               "x": 21,
               "y": 20,
+=======
+              "x": 5,
+              "y": 5,
+>>>>>>> Stashed changes
               "zOrder": 3,
               "numberProperties": [
                 {
@@ -4300,6 +4381,26 @@
               ],
               "stringProperties": [],
               "initialVariables": []
+<<<<<<< Updated upstream
+=======
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 8,
+              "keepRatio": true,
+              "layer": "",
+              "name": "BitmapCounter",
+              "persistentUuid": "0a180c36-877d-49af-ba0e-288d87d39590",
+              "width": 7,
+              "x": 10,
+              "y": 2,
+              "zOrder": 5,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+>>>>>>> Stashed changes
             }
           ],
           "editionSettings": {
@@ -4314,7 +4415,11 @@
             "gridColor": 10401023,
             "gridAlpha": 0.8,
             "snap": false,
+<<<<<<< Updated upstream
             "zoomFactor": 12.705843424865403,
+=======
+            "zoomFactor": 19.554343855108407,
+>>>>>>> Stashed changes
             "windowMask": false,
             "selectedLayer": "",
             "gameEditorMode": "instances-editor"
