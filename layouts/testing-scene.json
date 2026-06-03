@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-
+    "zoomFactor": 0.7562477198107301,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -163,7 +163,7 @@
       "height": 37,
       "keepRatio": true,
       "layer": "",
-      "name": "Conjurer_1",
+      "name": "Player",
       "persistentUuid": "f8643492-771a-49fe-8574-2b6d12ff0e0d",
       "width": 37,
       "x": 176,
@@ -179,7 +179,30 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-
+      "name": "",
+      "persistentUuid": "a4f49bbd-d347-49b8-a2f8-63dd284125c9",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Gun",
+      "persistentUuid": "38c9a03a-05e4-4281-96e0-597d8aa6d71d",
+      "width": 0,
+      "x": 372,
+      "y": 377,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
       "initialVariables": []
     }
   ],
@@ -5495,7 +5518,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "562c0a0c9a3b573386ed314733217caa56cff90f7e602fe9cb4ae96553bad909",
-      "name": "Conjurer_1",
+      "name": "Player",
       "persistentUuid": "86d72e84-80fd-4d80-8e53-c18714f79bce",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -6193,7 +6216,7 @@
         "objectName": "NewSprite3"
       },
       {
-        "objectName": "Conjurer_1"
+        "objectName": "Player"
       },
       {
         "objectName": "Gun"
@@ -6222,7 +6245,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Conjurer_1",
+            "Player",
             "Animation",
             "=",
             "LastPressedKey()"
