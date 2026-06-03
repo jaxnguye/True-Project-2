@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 269,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5572,12 +5572,148 @@
         }
       },
       {
-        "file": "AK47.png",
+        "file": "assets/Generic Character 3_Down_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "AK47.png",
-        "smoothed": true,
-        "userAdded": false
+        "name": "Generic Character 3_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/44fa258f6015aa2730e1d34d7ad68758e6abe155b9a1783e9dfdd948ffbd684d_Generic Character 3_Down_1.png",
+          "name": "Generic Character 3_Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/d4015655b8cdd132c0fd95c5dfa0a8d3f610283efea9e99122a6954519456578_Generic Character 3_Down_2.png",
+          "name": "Generic Character 3_Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/5005c08405c24b9f26f995060b9e694c93149026545470dd781611d7b9d5aaf7_Generic Character 3_Down_3.png",
+          "name": "Generic Character 3_Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/a64b21f5fed8ac87881a1782afbc7fe4744b2843b93c7e8e3d0effcf059ef5fd_Generic Character 3_Left_1.png",
+          "name": "Generic Character 3_Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/3a069766d2493bd2d3b388be0621b2897064c3ad3fe635bfefe1413b25a2fd6e_Generic Character 3_Left_2.png",
+          "name": "Generic Character 3_Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/a15459d5424b638ace682b166aea4f411f0c1a295dc4c9d4314be9c7549ff661_Generic Character 3_Left_3.png",
+          "name": "Generic Character 3_Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/11dda9a9d67c7d61a26c7d3e48e2521e21dfe7659ebebefebd1522358590a80a_Generic Character 3_Right_1.png",
+          "name": "Generic Character 3_Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/6ecc7e2b4e41125d34131574aad4f8c5f5a620da3f0bb39a1f2f3c6ca97a996f_Generic Character 3_Right_2.png",
+          "name": "Generic Character 3_Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/92c4ffae7666f531eff124a724982d07f23b3c47129634276173232a48fb3633_Generic Character 3_Right_3.png",
+          "name": "Generic Character 3_Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/1ba86dd19de88fa24cd49e01d4d94769a30d509ca6570d8663e66e48284a7a95_Generic Character 3_Up_1.png",
+          "name": "Generic Character 3_Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/0cd5cbbec36e6b03500bcf9447fcf8bd9cc0c642b8290f77ad5b8a1bf51dda1c_Generic Character 3_Up_2.png",
+          "name": "Generic Character 3_Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 3_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 3_Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/e0faa46792c5c6111ecd5be632abe6aa9ae231e663c20f41f29496f97ebdc575_Generic Character 3_Up_3.png",
+          "name": "Generic Character 3_Up_3.png"
+        }
       }
     ]
   },
@@ -5599,10 +5735,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/testing-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/gun-testing"
     }
   ],
   "externalEvents": [],
@@ -5622,10 +5754,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/scorecounter"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/firebullet"
     }
   ],
   "externalLayouts": []
