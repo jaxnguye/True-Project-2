@@ -6279,9 +6279,9 @@
           "parameters": [
             "Gun",
             "=",
-            "Conjurer_1.PointX(\"Gun\")",
+            "Player.PointX(\"Gun\")",
             "=",
-            "Conjurer_1.PointY(\"Gun\")"
+            "Player.PointY(\"Gun\")"
           ]
         },
         {
@@ -6308,7 +6308,7 @@
           },
           "parameters": [
             "Bullet",
-            "Conjurer_1",
+            "Player",
             "100",
             ""
           ]
