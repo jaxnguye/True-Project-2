@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 270,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5570,6 +5570,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Conjurers/8674976e5d1fc16cf9cf6746d8b49ad344b5f543c599fbfd6d6d32f775a1436c_Conjurer 1_Up_3.png",
           "name": "Conjurer 1_Up_3.png"
         }
+      },
+      {
+        "file": "AK47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AK47.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5582,11 +5590,27 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-
+      "referenceTo": "/layouts/gameplay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/testing-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gun-testing"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
@@ -5598,6 +5622,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/scorecounter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
     }
   ],
   "externalLayouts": []
