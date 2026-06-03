@@ -5578,6 +5578,22 @@
         "name": "AK47.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "AK48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AK48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "RifleAmmoSmall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RifleAmmoSmall.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

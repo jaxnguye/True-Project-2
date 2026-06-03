@@ -172,6 +172,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Gun",
+      "persistentUuid": "6850c30c-5e4c-47df-9a42-899932059899",
+      "width": 0,
+      "x": 212,
+      "y": 383,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5534,8 +5550,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5570,8 +5586,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5606,8 +5622,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5654,8 +5670,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5690,8 +5706,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5726,8 +5742,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5774,8 +5790,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5810,8 +5826,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5846,8 +5862,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5894,8 +5910,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5930,8 +5946,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5966,8 +5982,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5992,6 +6008,165 @@
                       {
                         "x": 2,
                         "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Gun",
+      "persistentUuid": "c5e3837b-62cd-4e70-a69a-18d680a58270",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AK48.png",
+                  "points": [
+                    {
+                      "name": "BulletPoint",
+                      "x": 29.5,
+                      "y": 6
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 8
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 31,
+                        "y": 2
+                      },
+                      {
+                        "x": 31,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bullet",
+      "persistentUuid": "ceff9420-487e-47e8-be3a-daf0f4daf3d7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "RifleAmmoSmall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "x": 13,
+                        "y": 7
+                      },
+                      {
+                        "x": 13,
+                        "y": 11
+                      },
+                      {
+                        "x": 5,
+                        "y": 11
                       }
                     ]
                   ]
@@ -6026,6 +6201,12 @@
       },
       {
         "objectName": "Conjurer_1"
+      },
+      {
+        "objectName": "Gun"
+      },
+      {
+        "objectName": "Bullet"
       }
     ]
   },
@@ -6058,8 +6239,92 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::Fire"
+          },
+          "parameters": [
+            "Gun",
+            "FireBullet",
+            "Gun.PointX(\"BulletPoint\")",
+            "Gun.PointY(\"BulletPoint\")",
+            "Bullet",
+            "Gun.Angle()",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "Gun",
+            "=",
+            "Conjurer_1.PointX(\"Gun\")",
+            "=",
+            "Conjurer_1.PointY(\"Gun\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "Gun",
+            "CursorX()",
+            "CursorY()",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Bullet",
+            "Conjurer_1",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bullet",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -6191,6 +6456,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
     },
     {
       "name": "Flippable",

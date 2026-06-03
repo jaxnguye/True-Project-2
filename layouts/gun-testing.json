@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47535850871269403,
+    "zoomFactor": 0.7315786463753017,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -137,6 +137,18 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "8bcbb14b-8ac0-4729-984e-296bd3d4c48a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -144,6 +156,9 @@
     "children": [
       {
         "objectName": "Gun"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
