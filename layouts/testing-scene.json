@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2856211236782946,
+    "zoomFactor": 0.892646211523063,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -251,6 +251,8 @@
           "Topdown": "TopDownMovement"
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -260,9 +262,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "useLegacyTurnBack": false,
           "viewpoint": "TopDown"
         }
@@ -2679,6 +2679,8 @@
           "Topdown": "TopDownMovement"
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2688,9 +2690,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "useLegacyTurnBack": false,
           "viewpoint": "TopDown"
         }
@@ -5503,6 +5503,8 @@
           "Topdown": "TopDownMovement"
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -5512,9 +5514,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "useLegacyTurnBack": false,
           "viewpoint": "TopDown"
         }
