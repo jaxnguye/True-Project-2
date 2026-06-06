@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.44485159988867046,
+    "zoomFactor": 1.0192755261488953,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -128,13 +128,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 59,
       "keepRatio": true,
       "layer": "UI",
       "name": "Health_counter",
       "persistentUuid": "013f9de8-9b67-435f-903a-72c7aa4bb8d1",
-      "width": 0,
+      "width": 208,
       "x": 352,
       "y": 48,
       "zOrder": 7,
@@ -170,6 +171,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
         {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown",
@@ -2597,12 +2626,25 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
+          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
@@ -2613,7 +2655,13 @@
       "name": "Health",
       "persistentUuid": "7da8b472-cb1f-452c-a225-326071ea8326",
       "type": "BitmapText::BitmapTextObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 3
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2654,7 +2702,13 @@
       "persistentUuid": "571da393-dbb2-405f-9a77-f7b37951b377",
       "type": "TiledUnitsBar::TiledUnitsBar",
       "variant": "LowPoly 3D Heart",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2875,6 +2929,26 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"ZombieSpawn\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Health",
+            "Health",
+            "=",
+            "3"
+          ]
         }
       ]
     },
@@ -2911,7 +2985,184 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Zombie",
+            "Scale",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceTowardObject"
+          },
+          "parameters": [
+            "Zombie",
+            "Player",
+            "0.3",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::SetMaxHealthOp"
+          },
+          "parameters": [
+            "Zombie",
+            "Health",
+            "=",
+            "1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"ZombieSpawn\"",
+            ">=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Zombie",
+            "Random(1000)",
+            "Random(1000)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"ZombieSpawn\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Zombie",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Health",
+            "Health",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ClearForces"
+          },
+          "parameters": [
+            "Zombie"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Health",
+            "Health",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"q\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "For Testing"
+        }
+      ]
     }
   ],
   "layers": [
@@ -3047,6 +3298,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
