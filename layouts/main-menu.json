@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40272258333259103,
+    "zoomFactor": 0.3088741216342651,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -37,8 +37,8 @@
       "name": "GameTitle",
       "persistentUuid": "46a62118-0f7e-4efb-b757-69ee1d3ac78d",
       "width": 0,
-      "x": 812,
-      "y": 256,
+      "x": 598,
+      "y": 317,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,7 +207,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "Petite Survivor\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 100,
@@ -230,7 +230,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": "Petite Survivor\n",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -257,7 +257,45 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "PlayButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Gameplay\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
