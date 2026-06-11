@@ -5726,6 +5726,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/Characters/78d46a4fd10774b1884e51978a7ca4534e81be7110a733a4ce6dc9cb80ed31fe_Zombie.png",
           "name": "Zombie.png"
         }
+      },
+      {
+        "file": "assets/NewSprite612.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite612.png\"}",
+        "name": "NewSprite612",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Projectile/5cb7c240d55e97c18f6f1da41d1c379049db6799daacaf3cf06ff99b1909feaf_Bullet.png",
+          "name": "Bullet.png"
+        }
+      },
+      {
+        "file": "assets/Gun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/Props/f06936e9c60e8d2b498bc9b13df90335ce4f8bf9db7c4901562cd735033a04bc_Gun.png",
+          "name": "Gun.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite613.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite613",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5767,6 +5807,22 @@
           "ShieldDamageTaken": 2.0247e-320,
           "FlatDamageReduction": 0,
           "PercentDamageReduction": 0
+        },
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
         }
       ],
       "animations": [
@@ -5819,533 +5875,11 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "29bf97ce5bb534aa6cc8d42564f2b5831a17421ff721745a00aeb15c4ccc5363",
-      "name": "Player",
-      "persistentUuid": "c9e234aa-be3e-49cf-b7d7-b8b8e9e30a7e",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "RemapForTopdown",
-          "type": "BehaviorRemapper::RemapForTopdown",
-          "Up": "w",
-          "Left": "a",
-          "Right": "d",
-          "Down": "s",
-          "Topdown": "TopDownMovement"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
-        }
-      ],
-      "animations": [
-        {
-          "name": "s",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Down_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Down_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Down_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "a",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Left_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Left_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Left_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "d",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Right_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Right_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Right_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "w",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Up_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Up_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 3_Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 2,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Player"
-      },
       {
         "objectName": "Zombie"
       }
@@ -6362,15 +5896,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/gameplay"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-menu"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameplay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/testing-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/retryscreen"
     }
   ],
   "externalEvents": [],
